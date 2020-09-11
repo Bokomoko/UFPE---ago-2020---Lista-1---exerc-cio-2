@@ -32,6 +32,8 @@ int main(void) {
 
   printf("Uma pessoa nome %s , idade %i \n" , umaPessoa.nome,umaPessoa.idade);
 
+  printf("Outra pessoa nome %s , idade %i \n" , outraPessoa.nome,outraPessoa.idade);
+
   copia(&umaPessoa,&outraPessoa);
 
   printf("Uma pessoa nome %s , idade %i \n" , umaPessoa.nome,umaPessoa.idade);
